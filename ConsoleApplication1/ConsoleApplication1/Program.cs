@@ -22,7 +22,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("hello world!");
 
-            var z = subtract(2, 3);
+            var z = add(2, 3);
         }
     }
 }
