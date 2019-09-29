@@ -21,8 +21,6 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("hello world!");
-
-            var z = add(2, 3);
         }
     }
 }
