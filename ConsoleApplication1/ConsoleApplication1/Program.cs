@@ -8,6 +8,11 @@ namespace ConsoleApplication1
 {
     class Program
     {
+        static int subtract(int x, int y)
+        {
+            return x - y;
+        }
+        
         static int add(int x, int y)
         {
             return x + y;
@@ -17,7 +22,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("hello world!");
 
-            var z = add(2, 3);
+            var z = subtract(2, 3);
         }
     }
 }
