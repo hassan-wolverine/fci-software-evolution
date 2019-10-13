@@ -13,7 +13,7 @@ namespace ConsoleApplication1
             return x - y;
         }
         
-        static int add(int x, int y)
+        static int add_(int x, int y)
         {
             return x + y;
         }
