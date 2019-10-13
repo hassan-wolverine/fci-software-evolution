@@ -17,6 +17,11 @@ namespace ConsoleApplication1
         {
             return x + y;
         }
+		
+		static int multiply(int x, int y)
+        {
+            return x * y;
+        }
 
         static void Main(string[] args)
         {
